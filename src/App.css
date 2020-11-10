@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #e27815;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +26,93 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.loader {
+  height: 100vh;
+  min-height: 100vh;
+  background: linear-gradient(#48615be5);
+  padding: 20px 80px 80px 80px;
+}
+
+.Home-page {
+  padding: 20px 80px 80px 80px;
+  align-self: "center";
+  background-color: "white";
+}
+
+.sign-out-btn {
+  height: 36px;
+  width: 80px;
+  text-decoration: solid;
+  border-width: 0px;
+  background-color: azure;
+  border-radius: 20px;
+}
+
+.sign-in-btn {
+  border-width: 0px;
+  background-color: aliceblue;
+  border-radius: 4px;
+}
+
+.sign-in {
+  display: flex;
+  height: 100vh;
+  min-height: 100vh;
+  background: linear-gradient(rgba(250, 0, 0, 0.5), transparent);
+  background-color: blueviolet;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-in-btn-container {
+  padding-top: 4%;
+  border-radius: 4px;
+  height: 220px;
+  width: 280px;
+  background-color: aliceblue;
+  text-align: center;
+  box-shadow: 0px 0px 8px 5px #9e8a96;
+}
+
+.header {
+  padding: 40px 80px 0px 80px;
+  display: flex;
+  background-color: #282c34;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.two-dropdown {
+  padding: 20px 120px 40px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dimensions {
+  width: 800px;
+}
+
+.log-in-text {
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 60px;
+}
+
+.sub-header {
+  margin-top: 80px;
+  font-family: "Roboto";
+}
+
+.dropdown {
+  margin-bottom: 60px;
+  width: 26%;
+  float: right;
+}
+
+.dropdown-width {
+  width: 24%;
 }
 
 @keyframes App-logo-spin {
