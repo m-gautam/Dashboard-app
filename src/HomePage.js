@@ -1,6 +1,6 @@
 import React from "react";
 import BarChart from "./charts/BarChart";
-import { auth } from "./components/firebase";
+import { analytics, auth } from "./components/firebase";
 import "./App.css";
 import PieChart from "./charts/PieChart";
 import LineChart from "./charts/LineChart";
@@ -16,6 +16,7 @@ const HomePage = () => {
           className="sign-out-btn"
           onClick={() => {
             auth.signOut();
+            analytics.logEvent("logout", "logs out user");
           }}
         >
           Sign Out
